@@ -20,10 +20,11 @@ header {
   padding-bottom: 200px;
   background-image: url("../img/header12.jpg");
   background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
 }
 
 header h1 {
@@ -157,16 +158,30 @@ nav i:hover {
 }
 
 .read_more {
-  border: 2px solid #80c1ff;
+  border: 2px solid rgba(128, 193, 255, 0.8);;
   margin: 0px auto;
   text-align: center;
   width: 100px;
+  padding: 6px;
+}
+
+.read_more:hover {
+  transition: .5s;
+  background-color: rgba(128, 193, 255, 0.8);
+  border: 2px solid rgba(128, 193, 255, 0.0);
+  padding: 9px;
 }
 
 .read_more a {
   color: black;
   text-decoration: none;
-  font-weight: 200;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.read_more a:hover {
+  transition: .3s;
+  color: white;
 }
 
 /*  MID SECTION  */
@@ -205,6 +220,10 @@ nav i:hover {
   border: 2px solid rgba(128, 193, 255, 0.0);
   padding: 12px;
 }
+
+
+/*  FOOTER  */
+
 
 
 

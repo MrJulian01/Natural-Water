@@ -63,25 +63,41 @@
         <article>
           <i class="fa fa-coffee" aria-hidden="true"></i>
           <h3>Good service</h3>
-          <p>We Lorem ipsum dolor sit amet, consectetur afficia deserunt mollit anim id est laborum. </p>
+          <p>We Lorem ipsum dolor sit amet, consectetur afficia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet </p>
+
+          <div class="read_more">
+            <a href="#">Read more..</a>
+          </div>
         </article>
 
         <article>
-          <i class="fa fa-shower" aria-hidden="true"></i>
+          <i class="fa fa-free-code-camp" aria-hidden="true"></i>
           <h3>Sauna</h3>
-          <p>We have a beautiful modern sauna where you can Lorem ipsum</p>
+          <p>We have a beautiful modern sauna where you can Lorem ipsum / Lorem ipsum dolor sit amet.</p>
+
+          <div class="read_more">
+            <a href="#">Read more..</a>
+          </div>
         </article>
 
         <article>
           <i class="fa fa-bed" aria-hidden="true"></i></i>
           <h3>Nice bedrooms</h3>
           <p>Natural Water wanted to upgrade the business and mad beautiful rooms with large beds where you also can relax.</p>
+
+          <div class="read_more">
+            <a href="#">Read more..</a>
+          </div>
         </article>
 
         <article>
           <i class="fa fa-cutlery" aria-hidden="true"></i>
           <h3>Restaurant</h3>
           <p>Our spa has a special made restaurant in the buidling. After your relax in our beautiful swimmingpool you can eat in our delicious restaurant.</p>
+
+          <div class="read_more">
+            <a href="#">Read more..</a>
+          </div>
         </article>
       </section>
 
