@@ -16,8 +16,8 @@ body {
 /*  HEADER  */
 
 header {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 250px;
+  padding-bottom: 250px;
   background-image: url("../img/header12.jpg");
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.2);
@@ -108,7 +108,7 @@ nav a:hover {
 }
 
 nav #logo {
-  width: 5vw;
+  width: 60px;
   position: relative;
   float: left;
   margin-left: 15px;
@@ -190,13 +190,12 @@ nav i:hover {
   width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url("../img/header5.jpg");
+  background-image: url("../img/header8.jpg");
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
 }
 
 #mid_section a {
@@ -221,12 +220,46 @@ nav i:hover {
   padding: 12px;
 }
 
+.contact_text {
+  display: inline-block;
+  margin-left: 100px;
+  color: white;
+  font-weight: 200;
+}
+
 
 /*  FOOTER  */
 
 
+footer {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* background-color: #e4e0d7; */
+  text-align: center;
+}
 
+footer article {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  text-align: left;
+  margin: 30px;
+}
 
+footer h4 {font-weight: 300; font-size: 20px; margin-left: 40px;}
+
+footer ul {list-style-type: none;}
+
+footer li {font-size: 15px; font-weight: 300;}
+
+footer i {margin-right: 10px;}
+
+table {margin-left: 40px;}
+
+th {padding-right: 15px;}
+
+td {font-weight: 300;}
 
 
 
