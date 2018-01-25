@@ -1,0 +1,125 @@
+/*  SELECTION  */
+
+::selection {
+  background-color: #80c1ff;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /*background-color: #ebe4de;*/
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/*  HEADER  */
+
+header {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url("../img/header10.jpg");
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  font-size: 35px;
+}
+
+/*  HEADER BUTTONS */
+
+#header_buttons {
+  text-align: center;
+  width: 100%;
+}
+
+#header_buttons a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.top_button {
+  display: inline-block;
+  padding: 10px;
+  width: 110px;
+  background-color: rgba(128, 193, 255, 0.8);
+  border: 2px solid rgba(128, 193, 255, 0.0);
+}
+
+.top_button:hover {
+  transition: .4s;
+  background-color: rgba(128, 193, 255, 0.0);
+  padding: 12px;
+  border: 2px solid #80c1ff;
+}
+
+
+/*  ANOTHER STYLE */
+
+.top_button2 {
+  border: 2px solid #80c1ff;
+  display: inline-block;
+  padding: 10px;
+  width: 100px;
+}
+
+.top_button2:hover {
+  transition: .4s;
+  background-color: rgba(128, 193, 255, 0.8);
+  border: 2px solid rgba(128, 193, 255, 0.0);
+  padding: 12px;
+}
+
+
+/*  NAVIGATION  */
+
+nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  text-align: right;
+  position: absolute;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  font-weight: 300;
+}
+
+nav a:hover {
+  transition: .4s;
+  color: #80c1ff;
+}
+
+nav #logo {
+  width: 5vw;
+  position: relative;
+  float: left;
+  margin-left: 15px;
+}
+
+nav i {
+  color: white;
+  margin-right: 15px;
+}
+
+nav i:hover {
+  transition: .4s;
+  color: #80c1ff;
+}
+
+
+/* MAIN CONTENT OF THE WEBPAGE */
+
+/* Lorem Ipsum section */
